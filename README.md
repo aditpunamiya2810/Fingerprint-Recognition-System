@@ -1,5 +1,6 @@
 This a group project for signal and image processing class in college. 
 We have made a basic fingerprint recognition system using image processing techniques.
+
 Step 1:
 Enhance the image using 
 Contrast Limited Adaptive Histogram Equalization (CLAHE)
