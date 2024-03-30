@@ -10,13 +10,18 @@ Noise Removal
 
 Step 2:
 Feature extraction
+
 Keypoint Detection: We employ Harris corner detection.
+
 Descriptor Generation: The ORB (Oriented FAST and Rotated BRIEF) algorithm.
 
 Step 3:
 Matching the fingerprints
+
 Matching fingerprints involves comparing the extracted features of a given fingerprint against a database of known fingerprints to identify potential matches:-
+
 Descriptor Matching: We employ the Brute-Force Matcher (BFMatcher) with the Hamming distance metric.
+
 Matching Criteria
 
 
